@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: url(./image/bg-pattern-top.svg) no-repeat, url(./image/bg-pattern-bottom.svg) no-repeat;
+    background-color:  hsl(185, 75%, 39%);
+    background-position:top -580px left -200px , bottom -580px right -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card{
+    background-image: url(./image/bg-pattern-card.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 23rem;
+    width: 21rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:4%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 270px;
+}
+.pro{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center;
+    
+}
+.name{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(229, 23%, 23%)
+}
+.age{
+    padding-left: .5rem;
+    margin: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+.location{
+    font-size: 14px;
+    margin-top: -2rem;
+    color:hsl(227, 10%, 46%);
+    padding-top: 10px;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.t2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    width: 21rem;
+    margin: 0;
+    border-top: 1px solid hsl(0, 0%, 90%);
+    
+}
+.n{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+.n p{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+.n>p:nth-child(even){
+    font-size: 12px;
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+    margin-bottom: -10px;
+    padding-top: 5px;
+}
+
+.n>p:nth-child(odd){
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 5px;
+    color:  hsl(229, 23%, 23%);
+}
